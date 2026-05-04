@@ -50,6 +50,18 @@ function WhyFresh() {
                 and stored in million-litre tanks before it ever reaches a carton. Ours is squeezed
                 while you watch — from oranges that were on a tree last week.
               </p>
+              <p style={{
+                marginTop: 16,
+                fontSize: 17,
+                lineHeight: 1.6,
+                color: 'var(--ink-2)',
+                maxWidth: 460,
+                textWrap: 'pretty',
+                fontStyle: 'italic',
+              }}>
+                Discover the unparalleled sweetness of Valencia oranges – a fruit cultivated with a
+                unique history and exceptional quality. Valencia isn't just a variety, it's a legacy.
+              </p>
             </Reveal>
             <Reveal delay={240}>
               <a href="#how" className="btn btn-ghost" style={{ marginTop: 32 }}>
