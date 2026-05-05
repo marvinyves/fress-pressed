@@ -81,8 +81,8 @@ function Footer() {
           ]} />
 
           <FootCol title="Contact" links={[
-            ['hello@freshpressed.my', 'mailto:hello@freshpressed.my'],
-            ['+60 1 48204698', 'tel:+60148204698'],
+            ['hello@freshpressed.my', 'mailto:fresspressed.my@gmail.com'],
+            ['+60 1 48204698', 'https://wa.me/60148204698'],
             ['Instagram', '#'],
           ]} />
         </div>

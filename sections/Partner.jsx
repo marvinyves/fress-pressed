@@ -61,7 +61,7 @@ function Partner() {
             <Reveal delay={240}>
               <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
+                gridTemplateColumns: 'repeat(2, 1fr)',
                 gap: 24,
                 marginTop: 48,
                 paddingTop: 28,
@@ -70,7 +70,6 @@ function Partner() {
                 {[
                   { k: 'Zero', v: 'Capex from you' },
                   { k: '24/7', v: 'Live monitoring' },
-                  { k: '14d',  v: 'From sign to live' },
                 ].map((p, i) => (
                   <div key={i}>
                     <div style={{
@@ -141,6 +140,22 @@ function Partner() {
                   <button type="submit" className="btn btn-orange" style={{ marginTop: 12, justifyContent: 'center' }}>
                     Send venue details <Arrow />
                   </button>
+                  <a
+                    href="uploads/Fresh Pressed — Partnership.pdf"
+                    download
+                    className="btn"
+                    style={{
+                      marginTop: 10,
+                      justifyContent: 'center',
+                      display: 'flex',
+                      background: 'rgba(255,255,255,0.08)',
+                      color: 'var(--bg)',
+                      border: '1px solid rgba(255,255,255,0.20)',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    Download partnership inquiry <Arrow />
+                  </a>
                 </form>
               ) : (
                 <div style={{
