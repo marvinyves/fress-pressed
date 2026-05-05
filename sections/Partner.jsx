@@ -137,20 +137,23 @@ function Partner() {
                     />
                   </div>
 
-                  <button type="submit" className="btn btn-orange" style={{ marginTop: 12, justifyContent: 'center' }}>
+                  <button type="submit" className="btn" style={{
+                    marginTop: 12,
+                    justifyContent: 'center',
+                    background: 'rgba(255,255,255,0.08)',
+                    color: 'var(--bg)',
+                    border: '1px solid rgba(255,255,255,0.20)',
+                  }}>
                     Send venue details <Arrow />
                   </button>
                   <a
                     href="uploads/Fresh Pressed — Partnership.pdf"
                     download
-                    className="btn"
+                    className="btn btn-orange"
                     style={{
                       marginTop: 10,
                       justifyContent: 'center',
                       display: 'flex',
-                      background: 'rgba(255,255,255,0.08)',
-                      color: 'var(--bg)',
-                      border: '1px solid rgba(255,255,255,0.20)',
                       textDecoration: 'none',
                     }}
                   >
