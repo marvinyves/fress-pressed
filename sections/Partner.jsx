@@ -147,7 +147,7 @@ function Partner() {
                     Send venue details <Arrow />
                   </button>
                   <a
-                    href="uploads/Fresh Pressed — Partnership.pdf"
+                    href="uploads/Fresh%20Pressed%20%E2%80%94%20Partnership.pdf"
                     download
                     className="btn btn-orange"
                     style={{
