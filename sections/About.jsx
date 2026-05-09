@@ -79,7 +79,7 @@ function AboutPage() {
                 boxShadow: '0 24px 64px rgba(31,36,16,0.12)',
               }}>
                 <img
-                  src="uploads/img6.png"
+                  src="uploads/img7.png"
                   alt="The Fresh Pressed family — where it all began"
                   style={{ width: '100%', height: 'auto', display: 'block' }}
                 />

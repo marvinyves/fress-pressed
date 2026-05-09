@@ -15,18 +15,27 @@ function Hero() {
         flexDirection: 'column',
         justifyContent: 'flex-end',
       }}>
-        {/* Background image */}
-        <img
-          src="assets/oranges-hero.jpeg"
-          alt="Oranges ripening on the tree in golden afternoon light"
-          style={{
-            position: 'absolute', inset: 0,
-            width: '100%', height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center center',
-            zIndex: 0,
-          }}
-        />
+        {/* Background video */}
+        <div style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden' }}>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            style={{
+              width: '100%', height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center center',
+            }}
+          >
+            <source src="uploads/orange4.mp4" type="video/mp4" />
+            {/* Fallback image */}
+            <img
+              src="assets/oranges-hero.jpeg"
+              alt="Oranges ripening on the tree"
+            />
+          </video>
+        </div>
 
         {/* Soft gradient — readability for left-aligned text + fade into page */}
         <div style={{
