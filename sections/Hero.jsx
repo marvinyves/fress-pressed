@@ -1,7 +1,7 @@
 // Fresh Vending — Hero (image-led)
 // Big full-bleed orange-grove image with the headline laid over it.
 
-const { Reveal, Arrow, Star6 } = window.FV;
+const { Reveal, Arrow, Star6, LiquidMetalButton } = window.FV;
 
 function Hero() {
   return (
@@ -113,9 +113,14 @@ function Hero() {
 
             <Reveal delay={260}>
               <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-                <a href="#partner" className="btn btn-orange">
-                  Host a machine <Arrow />
-                </a>
+                <LiquidMetalButton
+                  label="Host a machine"
+                  onClick={() => {
+                    const el = document.querySelector('#partner');
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    else window.location.hash = 'partner';
+                  }}
+                />
                 <a href="#how" className="btn" style={{
                   background: 'rgba(255,255,255,0.14)',
                   color: '#FFF7E8',

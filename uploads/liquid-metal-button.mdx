@@ -1,0 +1,64 @@
+---
+title: Liquid Metal Button
+description: WebGL shader-powered liquid metal button effect for React. Create stunning 3D metallic animations with customizable colors and reflections.
+preview: true
+links:
+ api: /docs/components/liquid-metal-button#api-reference
+ credits: https://www.abilshr.com
+---
+
+## Basic Usage
+
+<ComponentTabs name="liquid-metal-button-demo" />
+
+<AdBanner />
+
+## Installation
+
+### CLI
+
+```package-install
+npx shadcn@latest add "https://jolyui.dev/r/liquid-metal-button"
+```
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+
+     ```package-install
+     lucide-react @paper-design/shaders
+     ```
+  </Step>
+  <Step>
+    Copy and paste the following code into your project. ```component/ui/liquid-metal-button.tsx```
+
+    <ComponentSource name="liquid-metal-button" />
+  </Step>
+</Steps>
+
+## Usage
+
+```tsx
+import { LiquidMetalButton } from "@/components/ui/liquid-metal-button";
+
+function MyComponent() {
+  return (
+    <LiquidMetalButton label="Click Me" />
+  );
+}
+```
+
+## API Reference
+
+### LiquidMetalButton
+
+<AutoTypeTable
+  path="./types/docs/liquid-metal-button.ts"
+  name="LiquidMetalButtonProps"
+/>
+
+## Credits
+
+Inspired by [Abilshr](https://www.abilshr.com).
